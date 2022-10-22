@@ -1,1 +1,1 @@
-web: java -jar target/web_tech-0.0.1-SNAPSHOT.jar --server.port=$PORT
+web: java -jar jar/web_tech-0.0.1-SNAPSHOT.jar --server.port=$PORT
