@@ -15,9 +15,7 @@
 	<description>web_tech</description>
 	<packaging>pom</packaging>
 	<properties>
-		<java.version>11</java.version>
-		<maven.compiler.source>11</maven.compiler.source>
-		<maven.compiler.target>11</maven.compiler.target>
+		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -29,7 +27,6 @@
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
-			<version>1.18.24</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

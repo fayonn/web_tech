@@ -16,12 +16,12 @@ public class WebController {
 
     @GetMapping("/items")
     public List<Item> getItems(){
-        return List.of(
-                new Item("Sviatoslav", "Kytsara", 20, 414),
-                new Item("Yaroslav", "Rohan", 20, 413),
-                new Item("Rostyslav", "Lukaviy", 20, 414),
-                new Item("Maryian", "Lukaviy", 20, 414)
-        );
+        List<Item> list = new ArrayList<>();
+        list.add(new Item("Sviatoslav", "Kytsara", 20, 414));
+        list.add(new Item("Yaroslav", "Rohan", 20, 413));
+        list.add(new Item("Rostyslav", "Lukaviy", 20, 414));
+        list.add(new Item("Maryian", "Lukaviy", 20, 414));
+        return list;
     }
 
     @GetMapping("/message")
